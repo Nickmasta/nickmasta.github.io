@@ -41,6 +41,11 @@ pb {
   color: #FFFFFF;
 }
   
+th,td {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-spacing: 10px;
+}
 ul.horizontal-list {
   list-style: none;
   background-color: #5C6AC4;
@@ -91,3 +96,8 @@ ul.horizontal-list li:not(:last-child) {
   bottom: 0px; 
   width: 100%;
 }  
+
+.centerTable
+{
+  margin: 0px auto;
+}
